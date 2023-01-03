@@ -198,8 +198,12 @@ button{
     border: 2px solid var(--radius);
     cursor: pointer;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-    border-radius: var(--radius);
+    border-radius: 0.5rem 1.5rem;
     margin: 0.5rem;
+}
+
+button.btn-increase{
+    border-radius: 1.5rem 0.5rem;
 }
 
 button.reset{
